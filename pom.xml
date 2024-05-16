@@ -1,0 +1,52 @@
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>FirstMavenProject</groupId>
+
+  <artifactId>FirstMavenProject_</artifactId>
+
+  <version>0.0.1-SNAPSHOT</version>
+
+
+
+<properties>
+	
+	<maven.compiler.source>17</maven.compiler.source>
+	<maven.compiler.target>17</maven.compiler.target>
+
+	
+</properties>
+
+
+
+
+ <dependencies> 
+
+	<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.20.0</version>
+    </dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+    <dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+    </dependency>
+
+
+    <dependency>
+    	<groupId>Selenium_Day3</groupId>
+    	<artifactId>Selenium_Day3</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+ </dependencies>
+
+
+
+</project>
