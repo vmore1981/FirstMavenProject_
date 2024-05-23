@@ -22,5 +22,7 @@ public class SauceHomepage {
 	public List<WebElement> itemPrices;
 	
 	
+	@FindBy (xpath = "//span[text()='Products']")
+	public WebElement homepage_product_text;
 	
 }

@@ -82,6 +82,10 @@ public class BrowserUtils {
 	 
 	 
 	 // create a method which accepts a webElement, which selects by visible text
+	 
+	
+	 
+	 
 	 public void selectWithVisibleText(WebElement dropdown, String option) {
 	  select = new Select(dropdown);
 	  select.selectByVisibleText(option);
